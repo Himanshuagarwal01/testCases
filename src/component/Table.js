@@ -7,7 +7,7 @@ export default class Table extends Component {
                 <thead>
                     <tr>
                         <th>Email</th>
-                        <th>Name</th>
+                        <th>Names</th>
                     </tr>
                 </thead>
                 <tbody>
