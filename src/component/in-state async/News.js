@@ -36,8 +36,8 @@ export default class News extends Component {
         return (
             <div>
                 hello
-                <button onClick={() => this.signOut()}>SignOut
-                    <input type='text' id='firstName' value='CodeImprove' name='firstNamea' />
+                <button onClick={() => this.signOut()}> SignOut
+                    <input type='text' id='firstName'  name='firstNamea' defaultValue='Static Value' />
                 </button>
             </div>
         )
