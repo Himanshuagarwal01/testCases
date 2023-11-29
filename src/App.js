@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Click from './component/Click';
+import News from './component/in-state async/News';
+import SecondClock from './component/SecondClock';
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
             Learn React
           </a>
         </header>
+        <Click />
+        <News />
+        <SecondClock />
       </div>
-      <Click />
     </>
   );
 }
